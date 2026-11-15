@@ -40,7 +40,12 @@ st.markdown(
         background: #131c2e; border: 1px solid #1f2a44;
         border-radius: 12px; padding: 14px 18px;
     }
-    div[data-testid="stMetricValue"] { color: #f8fafc; }
+    div[data-testid="stMetricValue"] { color: #f8fafc; font-size: 1.9rem; }
+    /* Langar tölur og heiti fara í næstu línu í stað þess að klippast með „…“ */
+    div[data-testid="stMetricValue"] *, div[data-testid="stMetricLabel"] * {
+        white-space: normal !important; overflow: visible !important;
+        text-overflow: clip !important; overflow-wrap: anywhere;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -140,7 +145,8 @@ kpis = compute_kpis(report, filtered, side.filters, now, now if report.matches e
 
 # --- Yfirlitstölur ---
 with kpi_box:
-    c = st.columns(6)
+    # Tvær raðir með þremur reitum svo langar tölur (krónur, dagsetning) komist fyrir
+    c = st.columns(3) + st.columns(3)
     c[0].metric("Fjöldi leikja", kpis.match_count)
     c[1].metric("Arbitrage-tækifæri", kpis.arbitrage_count)
     c[2].metric("Fjöldi ≥ 5%", kpis.high_margin_count)
