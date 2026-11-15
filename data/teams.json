@@ -1,0 +1,77 @@
+{
+  "competitions": [
+    {
+      "id": "ENG-PL",
+      "name": "Premier League",
+      "aliases": ["English Premier League", "EPL", "England - Premier League", "England Premier League"]
+    },
+    {
+      "id": "ESP-LL",
+      "name": "La Liga",
+      "aliases": ["LaLiga", "Spain - La Liga", "Primera Division", "Spain La Liga"]
+    },
+    {
+      "id": "GER-BL",
+      "name": "Bundesliga",
+      "aliases": ["1. Bundesliga", "Germany - Bundesliga", "German Bundesliga"]
+    },
+    {
+      "id": "ITA-SA",
+      "name": "Serie A",
+      "aliases": ["Italy - Serie A", "Italian Serie A"]
+    },
+    {
+      "id": "ISL-BD",
+      "name": "Besta deild karla",
+      "aliases": ["Besta deild", "Iceland - Besta deild", "Iceland Besta deild karla", "Úrvalsdeild karla"]
+    }
+  ],
+  "teams": [
+    {"id": "MUN", "code": "MUN", "competition": "ENG-PL", "name": "Manchester United", "aliases": ["Man Utd", "Manchester U.", "Man United", "Manchester Utd"]},
+    {"id": "MCI", "code": "MCI", "competition": "ENG-PL", "name": "Manchester City", "aliases": ["Man City", "Manchester C."]},
+    {"id": "LIV", "code": "LIV", "competition": "ENG-PL", "name": "Liverpool", "aliases": ["Liverpool FC"]},
+    {"id": "ARS", "code": "ARS", "competition": "ENG-PL", "name": "Arsenal", "aliases": ["Arsenal FC"]},
+    {"id": "CHE", "code": "CHE", "competition": "ENG-PL", "name": "Chelsea", "aliases": ["Chelsea FC"]},
+    {"id": "TOT", "code": "TOT", "competition": "ENG-PL", "name": "Tottenham Hotspur", "aliases": ["Tottenham", "Spurs"]},
+    {"id": "NEW", "code": "NEW", "competition": "ENG-PL", "name": "Newcastle United", "aliases": ["Newcastle", "Newcastle Utd"]},
+    {"id": "AVL", "code": "AVL", "competition": "ENG-PL", "name": "Aston Villa", "aliases": ["A. Villa"]},
+    {"id": "WHU", "code": "WHU", "competition": "ENG-PL", "name": "West Ham United", "aliases": ["West Ham", "West Ham Utd"]},
+    {"id": "BHA", "code": "BHA", "competition": "ENG-PL", "name": "Brighton & Hove Albion", "aliases": ["Brighton", "Brighton and Hove Albion"]},
+
+    {"id": "RMA", "code": "RMA", "competition": "ESP-LL", "name": "Real Madrid", "aliases": ["R. Madrid", "Real Madrid CF"]},
+    {"id": "BAR", "code": "BAR", "competition": "ESP-LL", "name": "Barcelona", "aliases": ["FC Barcelona", "Barca", "Barça"]},
+    {"id": "ATM", "code": "ATM", "competition": "ESP-LL", "name": "Atlético Madrid", "aliases": ["Atletico Madrid", "Atl. Madrid", "Atletico de Madrid"]},
+    {"id": "RSO", "code": "RSO", "competition": "ESP-LL", "name": "Real Sociedad", "aliases": ["R. Sociedad"]},
+    {"id": "BET", "code": "BET", "competition": "ESP-LL", "name": "Real Betis", "aliases": ["Betis"]},
+    {"id": "SEV", "code": "SEV", "competition": "ESP-LL", "name": "Sevilla", "aliases": ["Sevilla FC"]},
+    {"id": "VIL", "code": "VIL", "competition": "ESP-LL", "name": "Villarreal", "aliases": ["Villarreal CF"]},
+    {"id": "VCF", "code": "VCF", "competition": "ESP-LL", "name": "Valencia", "aliases": ["Valencia CF"]},
+
+    {"id": "BAY", "code": "BAY", "competition": "GER-BL", "name": "Bayern München", "aliases": ["Bayern Munich", "FC Bayern", "Bayern"]},
+    {"id": "BVB", "code": "BVB", "competition": "GER-BL", "name": "Borussia Dortmund", "aliases": ["Dortmund", "B. Dortmund"]},
+    {"id": "RBL", "code": "RBL", "competition": "GER-BL", "name": "RB Leipzig", "aliases": ["Leipzig", "RasenBallsport Leipzig"]},
+    {"id": "B04", "code": "B04", "competition": "GER-BL", "name": "Bayer Leverkusen", "aliases": ["Leverkusen", "Bayer 04 Leverkusen"]},
+    {"id": "SGE", "code": "SGE", "competition": "GER-BL", "name": "Eintracht Frankfurt", "aliases": ["Frankfurt", "E. Frankfurt"]},
+    {"id": "VFB", "code": "VFB", "competition": "GER-BL", "name": "VfB Stuttgart", "aliases": ["Stuttgart"]},
+    {"id": "BMG", "code": "BMG", "competition": "GER-BL", "name": "Borussia Mönchengladbach", "aliases": ["Gladbach", "Mönchengladbach", "B. Monchengladbach"]},
+    {"id": "WOB", "code": "WOB", "competition": "GER-BL", "name": "VfL Wolfsburg", "aliases": ["Wolfsburg"]},
+
+    {"id": "INT", "code": "INT", "competition": "ITA-SA", "name": "Inter", "aliases": ["Inter Milan", "Internazionale", "FC Internazionale"]},
+    {"id": "MIL", "code": "MIL", "competition": "ITA-SA", "name": "AC Milan", "aliases": ["Milan"]},
+    {"id": "JUV", "code": "JUV", "competition": "ITA-SA", "name": "Juventus", "aliases": ["Juve"]},
+    {"id": "NAP", "code": "NAP", "competition": "ITA-SA", "name": "Napoli", "aliases": ["SSC Napoli"]},
+    {"id": "ROM", "code": "ROM", "competition": "ITA-SA", "name": "AS Roma", "aliases": ["Roma"]},
+    {"id": "LAZ", "code": "LAZ", "competition": "ITA-SA", "name": "Lazio", "aliases": ["SS Lazio"]},
+    {"id": "ATA", "code": "ATA", "competition": "ITA-SA", "name": "Atalanta", "aliases": ["Atalanta BC"]},
+    {"id": "FIO", "code": "FIO", "competition": "ITA-SA", "name": "Fiorentina", "aliases": ["ACF Fiorentina"]},
+
+    {"id": "KR", "code": "KR", "competition": "ISL-BD", "name": "KR", "aliases": ["KR Reykjavík"]},
+    {"id": "VAL", "code": "VAL", "competition": "ISL-BD", "name": "Valur", "aliases": ["Valur Reykjavík"]},
+    {"id": "BRE", "code": "BRE", "competition": "ISL-BD", "name": "Breiðablik", "aliases": ["Breidablik", "Breiðablik Kópavogur"]},
+    {"id": "VIK", "code": "VIK", "competition": "ISL-BD", "name": "Víkingur Reykjavík", "aliases": ["Víkingur R.", "Vikingur R"]},
+    {"id": "FH", "code": "FH", "competition": "ISL-BD", "name": "FH", "aliases": ["FH Hafnarfjörður"]},
+    {"id": "STJ", "code": "STJ", "competition": "ISL-BD", "name": "Stjarnan", "aliases": ["Stjarnan Garðabær"]},
+    {"id": "KA", "code": "KA", "competition": "ISL-BD", "name": "KA", "aliases": ["KA Akureyri"]},
+    {"id": "IA", "code": "IA", "competition": "ISL-BD", "name": "ÍA", "aliases": ["ÍA Akranes"]}
+  ]
+}
